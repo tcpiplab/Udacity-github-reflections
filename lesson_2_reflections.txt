@@ -3,3 +3,9 @@ What happens when you initialize a repository? Why do you need to do it?
 Git creates a .git directory in your cwd. But you still don't have any commits, so "git log" won't have any entries.
 
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is different from the working directory in that the working directory can contain files that are not (yet) in the staging area. The staging area is different from the respository in that files in the staging area have not yet been committed into the repository. Because of this, changes to files in the staging area will not show up in output of "git log".
+
+
+
