@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Git creates a .git directory in your cwd. But you still don't have any commits, so "git log" won't have any entries.
+
+
