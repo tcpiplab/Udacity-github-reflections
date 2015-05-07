@@ -19,3 +19,6 @@ git diff --staged
 git status
 
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Experimental new features; refactored code that has not yet been tested; special case versions of your code, such as for running in legacy environments.
