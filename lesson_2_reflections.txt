@@ -22,3 +22,11 @@ git status
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Experimental new features; refactored code that has not yet been tested; special case versions of your code, such as for running in legacy environments.
+
+
+How do the diagrams help you visualize the branch structure?
+
+They can help you get oriented in reference to specific commit that you remember or that you want to use. They can also help you understand why certain commits are not included in the output of "git log" for certain branches - those commits may have happened after the new branch split off from the master branch or from whatever branch you have currently checked out.
+
+
+
