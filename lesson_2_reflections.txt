@@ -34,4 +34,9 @@ What is the result of merging two branches together? Why do we represent it in t
 The resulting merge is a union of the lines of code from both branches, minus any common lines that were deleted in one or both branches. This means that lines added in either of the branches are added to the merged branch. The diagram was represented the way it was so that we could clearly see the reachability of each branch's parent commits, or the lack there of.
 
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+At this point, without more actual experience, I can't really say what the pros are beyond the obvious labor savings. I'd say the same for the cons. It really depends on how often the automated merges produce unexpected outcomes.
+
+
 
