@@ -29,4 +29,9 @@ How do the diagrams help you visualize the branch structure?
 They can help you get oriented in reference to specific commit that you remember or that you want to use. They can also help you understand why certain commits are not included in the output of "git log" for certain branches - those commits may have happened after the new branch split off from the master branch or from whatever branch you have currently checked out.
 
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The resulting merge is a union of the lines of code from both branches, minus any common lines that were deleted in one or both branches. This means that lines added in either of the branches are added to the merged branch. The diagram was represented the way it was so that we could clearly see the reachability of each branch's parent commits, or the lack there of.
+
+
 
