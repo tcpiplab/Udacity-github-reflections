@@ -1,1 +1,4 @@
-TBD
+When would you want to use a remote repository rather than keeping all your work local?
+
+When collaborating with another developer; when developing from more than one computer; when you want others to be able to access and edit your code.
+
