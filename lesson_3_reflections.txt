@@ -17,4 +17,9 @@ A clone is a copy of a remote repository which you've copied (cloned) to your lo
 Branches are used to take your code in a new direction, via a mnemonic label, without disrupting the existing code's stability. If you already have the code in your local repository you would not clone it, and forking does not apply in this case either. In this case you would create a new branch which would point to a specific commit which contains modifications to your code that are experimental, substantially disruptive, or introduce a significan new feature which is not yet stable enough for the master (main) branch of your code.
 
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+The primary benefit of having a local copy of the last known state of the remote is that it allows git to know if you are ahead, behind, or out-of-sync with the remote repository. A secondary benefit is that you can manually view the log or diffs of the remote before you merge your branch (e.g., master) with the code from the remote (e.g., origin/master).
+
+
 
