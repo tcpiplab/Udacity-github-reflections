@@ -14,7 +14,7 @@ directory can contain files that are not (yet) in the staging area. The staging 
 
 >Right before you run `git commit` you can run the following commands to make sure that you only have one change in the staging area:
 
-    git diff (with no arguments)
+    git diff
     git diff --staged
     git status
 
