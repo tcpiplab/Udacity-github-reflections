@@ -1,4 +1,4 @@
-# Answers to questions posed in Lesson 2 Udacity's [How to Use Git and Github][1] course.
+# Answers to questions posed in Lesson 2 of Udacity's [How to Use Git and Github][1] course.
 
 *What happens when you initialize a repository? Why do you need to do it?*
 
