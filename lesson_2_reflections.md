@@ -35,6 +35,6 @@ special case versions of your code, such as for running in legacy environments.
 
 *What are the pros and cons of Git’s automatic merging vs. always doing merges manually?*
 
->At this point, without more actual experience, I can't really say what the pros are beyond the obvious labor savings. I'd say the same for the cons. It really depends on how often the automated merges produce unexpected outcomes.
+>__Pro:__ automatic merging saves everyone time. __Con:__ There is always the possibility that the merge algorithm might do something unexpected, creating a subtle bug. 
 
 [1]: https://www.udacity.com/course/how-to-use-git-and-github--ud775
