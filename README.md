@@ -1,5 +1,5 @@
 # Udacity-github-reflections
-These question/answer documents are from an assignment in Udacity's 
+These documents contain my answers to questions posed in Udacity's 
 free course, [How to Use Git and GitHub][1].
 
 ![Screenshot of the How to Use Git and GitHub web page](https://cloud.githubusercontent.com/assets/816651/10686573/3eea4c74-791a-11e5-9658-54097ac9be31.png)
