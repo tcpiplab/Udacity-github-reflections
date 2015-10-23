@@ -19,9 +19,11 @@ git diff --staged
 git status
 
 
-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
 
-Experimental new features; refactored code that has not yet been tested; special case versions of your code, such as for running in legacy environments.
+Experimental new features; refactored code that has not yet been tested;
+special case versions of your code, such as for running in legacy environments.
 
 
 How do the diagrams help you visualize the branch structure?
@@ -37,6 +39,3 @@ The resulting merge is a union of the lines of code from both branches, minus an
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
 At this point, without more actual experience, I can't really say what the pros are beyond the obvious labor savings. I'd say the same for the cons. It really depends on how often the automated merges produce unexpected outcomes.
-
-
-
