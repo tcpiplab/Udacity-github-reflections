@@ -1,5 +1,4 @@
-# Answers to questions posed in Lesson 1 of Udacity's
-[How to Use Git and Github][1] course.
+# Answers to questions posed in Lesson 1 of Udacity's [How to Use Git and Github][1] course.
 
 *How did viewing a diff between two versions of a file help you see the bug
 that was introduced?*
