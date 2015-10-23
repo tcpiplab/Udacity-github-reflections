@@ -8,7 +8,7 @@
 repository? What value do you think it offers?*
 
  >The staging area is different from the working directory in that the working
-directory can contain files that are not (yet) in the staging area. The staging area is different from the repository in that files in the staging area have not yet been committed into the repository. Because of this, changes to files in the staging area will not show up in output of `git log`.
+directory can contain files that are not (yet) in the staging area. The staging area is different from the repository in that files in the staging area have not yet been committed into the repository. Because of this, changes to files in the staging area will not show up in the output of `git log`.
 
 *How can you use the staging area to make sure you have one commit per logical change?*
 
