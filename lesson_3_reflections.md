@@ -59,4 +59,10 @@ with the remote repository. A secondary benefit is that you can manually view
 the log or diffs of the remote before you merge your branch (e.g., master) with
 the code from the remote (e.g., origin/master).
 
+*How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?*
+
+>Collaborating with neither Git nor GitHub would be harder in all cases except
+the most simple of scenarios involving very few collaborators and files.
+
 [1]: https://www.udacity.com/course/how-to-use-git-and-github--ud775
