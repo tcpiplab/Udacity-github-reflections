@@ -1,30 +1,42 @@
-80 columns to keep diffs easier to read
+# Notes from Udacity's [How to Use Git and GitHub](1) Course
 
-diff -u
+## Diffs
+Keep your source code and README files to ≤ 80 columns to make diffs easier to
+read.
 
-git log
+### `diff -u`
+Most systems come with either Gnu diff or a similar tool. Use this to compare
+files that are not part of a git repository.
+
+### `git diff <commit_id> <commit_id>`
+The output of `git diff` is the same as `diff -u`, meaning it will have `+`
+and `-` characters.
+
+A good rule of thumb is to make one commit per logical change. For example, if
+you fixed a typo, then fixed a bug in a separate part of the file, you should
+use one commit for each change since they are logically separate.
+
+## Logs
+### `git log`
 Show commit messages and commit IDs in reverse chronological order. This
 command runs locally, not needing Internet access to the remote.
 
-git log --stat
+### `git log --stat`
 As above, but include the number of lines added or removed.
 
-git log --graph
+### `git log --graph`
 Display an ascii graph showing branches and merges.
 
-git log --graph --oneline
+### `git log --graph --oneline`
 Display an ascii graph showing branches and merges, one line per commit.
 
+## Cloning
+### `git clone <url>`
+Create a local copy of the repository located at the given URL.
 
-git diff <commit_id> <commit_id>
-The output of "git diff" is the same as "diff -u", meaning it will have + and - characters.
-
-A good rule of thumb is to make one commit per logical change. For example, if you fixed a typo, then fixed a bug in a separate part of the file, you should use one commit for each change since they are logically separate.
-
-
-git clone <url>
-
-git config --global color.ui auto
+### `git config --global color.ui auto`
+Display `git` output in color. This is an alternative to [manually editing
+`~/.gitconfig` to set color output](2).
 
 git checkout <commit_id>
 
@@ -140,3 +152,6 @@ This command is the same as running these two commands in succession:
 E.g., "git pull origin master" is the same as:
   git fetch origin
   git merge master origin/master
+
+[1]:(https://www.udacity.com/course/how-to-use-git-and-github--ud775)
+[2]:(http://unix.stackexchange.com/questions/44266/how-to-colorize-output-of-git)
