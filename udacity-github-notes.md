@@ -1,5 +1,21 @@
 # Notes from Udacity's [How to Use Git and GitHub](1) Course
 
+<!-- TOC depth:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Notes from Udacity's [How to Use Git and GitHub](1) Course](#notes-from-udacitys-how-to-use-git-and-github1-course)
+	- [Diffs](#diffs)
+		- [`diff -u`](#diff-u)
+		- [`git diff <commit_id> <commit_id>`](#git-diff-commitid-commitid)
+	- [Logs](#logs)
+		- [`git log`](#git-log)
+		- [`git log --stat`](#git-log-stat)
+		- [`git log --graph`](#git-log-graph)
+		- [`git log --graph --oneline`](#git-log-graph-oneline)
+	- [Cloning](#cloning)
+		- [`git clone <url>`](#git-clone-url)
+		- [`git config --global color.ui auto`](#git-config-global-colorui-auto)
+<!-- /TOC -->
+
 ## Diffs
 Keep your source code and README files to ≤ 80 columns to make diffs easier to
 read.
