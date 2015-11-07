@@ -1,10 +1,12 @@
 # Notes from Udacity's [How to Use Git and GitHub](1) Course
 
-<!-- TOC depth:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+<!-- TOC depth:6 withLinks:1 updateOnSave:0 orderedList:0 -->
 
 - [Notes from Udacity's [How to Use Git and GitHub](1) Course](#notes-from-udacitys-how-to-use-git-and-github1-course)
 	- [Diffs](#diffs)
 		- [`diff -u`](#diff-u)
+		- [`git diff`](#git-diff)
+		- [`git diff --staged`](#git-diff-staged)
 		- [`git diff <commit_id> <commit_id>`](#git-diff-commitid-commitid)
 	- [Logs](#logs)
 		- [`git log`](#git-log)
@@ -14,7 +16,7 @@
 	- [Cloning](#cloning)
 		- [`git clone <url>`](#git-clone-url)
 		- [`git config --global color.ui auto`](#git-config-global-colorui-auto)
-
+		
 <!-- /TOC -->
 
 ## Diffs
@@ -24,6 +26,13 @@ read.
 ### `diff -u`
 Most systems come with either Gnu diff or a similar tool. Use this to compare
 files that are not part of a git repository.
+
+### `git diff`
+With no arguments, `git diff` compares the current state of your working
+directory to the staging area.
+
+### `git diff --staged`
+Compares the staging area with your most recent commit.
 
 ### `git diff <commit_id> <commit_id>`
 The output of `git diff` is the same as `diff -u`, meaning it will have `+`
@@ -57,12 +66,6 @@ Display `git` output in color. This is an alternative to [manually editing
 
 git checkout <commit_id>
 
-git diff
-with no arguments. (If you don’t give git diff any arguments, it compares the
-current state of your working directory to the staging area.)
-
-git diff --staged
-Compares the staging area with your most recent commit.
 
 git rm --cached
 The exact opposite of git add <filename>
