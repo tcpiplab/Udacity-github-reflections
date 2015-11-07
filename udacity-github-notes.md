@@ -14,6 +14,7 @@
 	- [Cloning](#cloning)
 		- [`git clone <url>`](#git-clone-url)
 		- [`git config --global color.ui auto`](#git-config-global-colorui-auto)
+
 <!-- /TOC -->
 
 ## Diffs
