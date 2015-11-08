@@ -19,6 +19,31 @@
 		
 <!-- /TOC -->
 
+## Git Basics
+
+### `git init`
+Turn a directory of files into a new repository. But you have to create the first commit yourself.
+
+### `git status`
+Shows which files from your working directory have been added (via `git add`)
+to the staging area, and which files have not been added. This command runs
+locally, not needing Internet access to the remote.
+
+### `git add <filename>`
+Adds a file to the staging area, but not (yet) to the repository.
+
+### `git commit [filename]`
+Commits changes from the staging area to the repository. The filename argument
+is optional. It also automatically opens your text editor so you can add a
+commit message. 
+
+The commit message is typically in the form of a command, E.g., "Add slider 
+bar", rather than "Added a slider bar", should not end in a period, should be 
+less than or equal to 50 characters, and the optional second paragraph should 
+wrap at 72 characters.
+
+"Commit" is used as both noun and a verb. As a noun it is used to refer to saved versions of files. So you commit (verb) in order to create a commit (noun).
+
 ## Diffs
 Keep your source code and README files to ≤ 80 columns to make diffs easier to
 read.
@@ -82,23 +107,7 @@ Discard any changes to either the working directory or the staging area. Be
 careful. This command cannot be undone. It is for removing file edits that you
 never want to see again.
 
-## Git Basics
 
-### `git init`
-Turn a directory of files into a new repository. But you have to create the first commit yourself.
-
-### `git status`
-Shows which files from your working directory have been added (via `git add`)
-to the staging area, and which files have not been added. This command runs
-locally, not needing Internet access to the remote.
-
-git add <file>
-adds a file to the staging area, but not (yet) to the repository.
-
-git commit
-Commits changes from the staging area to the repository. It also automatically opens your text editor so you can add a commit message. This is typically in the form of a command, E.g., "Add slider bar", rather than "added a slider bar".
-
-"commit" is a noun and a verb. As a noun it is used to refer to saved versions of files. So you commit (verb) in order to create a commit (noun).
 
 BRANCHES:
 
