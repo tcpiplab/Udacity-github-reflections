@@ -42,7 +42,7 @@ bar", rather than "Added a slider bar", should not end in a period, should be
 less than or equal to 50 characters, and the optional second paragraph should 
 wrap at 72 characters.
 
-"Commit" is used as both noun and a verb. As a noun it is used to refer to saved versions of files. So you commit (verb) in order to create a commit (noun).
+"Commit" is used as both a noun and a verb. As a noun it is used to refer to saved versions of files. So you commit (verb) in order to create a commit (noun).
 
 ## Diffs
 Keep your source code and README files to ≤ 80 columns to make diffs easier to
@@ -109,7 +109,7 @@ never want to see again.
 
 
 
-BRANCHES:
+## Branches
 
 git checkout master
 
