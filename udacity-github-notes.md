@@ -64,13 +64,13 @@ Create a local copy of the repository located at the given URL.
 Display `git` output in color. This is an alternative to [manually editing
 `~/.gitconfig` to set color output](2).
 
-git checkout <commit_id>
+### `git checkout <commit_id>`
 
 
-git rm --cached
-The exact opposite of git add <filename>
+### `git rm --cached`
+The exact opposite of `git add <filename>`
 
-git reset
+### `git reset`
 If you accidentally add a file to the staging area, you can remove it using git
 reset. For example, if you accidentally add lesson_2_reflections.txt, but don’t
 want it to be committed yet, run git reset lesson_2_reflections.txt and the
