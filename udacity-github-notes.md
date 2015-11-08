@@ -70,32 +70,35 @@ Display `git` output in color. This is an alternative to [manually editing
 ### `git rm --cached`
 The exact opposite of `git add <filename>`
 
-### `git reset`
+### `git reset <filename>`
 If you accidentally add a file to the staging area, you can remove it using git
 reset. For example, if you accidentally add `lesson_2_reflections.txt`, but don’t
 want it to be committed yet, run `git reset lesson_2_reflections.txt` and the
 file will be removed from the staging area, but it will still be in your
 working directory.
 
-git reset ­­--hard
+### `git reset ­­--hard`
 Discard any changes to either the working directory or the staging area. Be
 careful. This command cannot be undone. It is for removing file edits that you
 never want to see again.
 
-"commit" is a noun and a verb. As a noun it is used to refer to saved versions of files. So you commit (verb) in order to create a commit (noun).
+## Git Basics
 
-"git init" turns a directory of files into a new repository. But you have to create the first commit yourself.
+### `git init`
+Turn a directory of files into a new repository. But you have to create the first commit yourself.
 
-git status
-Will show you which files from your working directory have been
-added (via "git add") to the staging area, and which files have not been added.
-This command runs locally, not needing Internet access to the remote.
+### `git status`
+Shows which files from your working directory have been added (via `git add`)
+to the staging area, and which files have not been added. This command runs
+locally, not needing Internet access to the remote.
 
 git add <file>
 adds a file to the staging area, but not (yet) to the repository.
 
 git commit
 Commits changes from the staging area to the repository. It also automatically opens your text editor so you can add a commit message. This is typically in the form of a command, E.g., "Add slider bar", rather than "added a slider bar".
+
+"commit" is a noun and a verb. As a noun it is used to refer to saved versions of files. So you commit (verb) in order to create a commit (noun).
 
 BRANCHES:
 
