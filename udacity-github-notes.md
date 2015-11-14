@@ -111,22 +111,22 @@ never want to see again.
 
 ## Branches
 
-git checkout master
+### `git checkout master`
 
-git branch
+### `git branch`
 With no arguments, this shows your current branches. The branch name with the
 asterisk is the branch that is currently checked out.
 
-git branch <new_name>
+### `git branch <new_name>`
 Creates a new named branch.
 
-git checkout <branch_name>
-Checks out a named branch. Confirm with "git branch" with no args.
+### `git checkout <branch_name>`
+Checks out a named branch. Confirm with `git branch` with no args.
 
-git checkout -b <new_branch_name>
+### `git checkout -b <new_branch_name>`
 This is a shortcut for the following sequence of two commands:
-  git branch <new_branch_name>
-  git checkout <new_branch_name>
+  `git branch <new_branch_name>`
+  `git checkout <new_branch_name>`
 Use this when you have put yourself into "detached head mode" and you want to save your commit by creating a new branch for it. Otherwise your commit will be lost when you checkout another branch - because your commit will be "unreachable".
 
 I--oneline <branch_1> <branch_2>
